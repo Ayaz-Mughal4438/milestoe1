@@ -1,0 +1,113 @@
+ /* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Resume container */
+.resumeDiv {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header div {
+    flex: 1;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+header p {
+    margin: 5px 0 0;
+    color: #777;
+}
+
+header img {
+    width: 120px;   /* Smaller size for the image */
+    height: 120px;  /* Smaller size for the image */
+    border-radius: 50%; /* Makes image round */
+    margin-left: 20px;
+}
+
+/* Content layout */
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Sidebar (left) */
+aside {
+    width: 30%;
+    padding-right: 20px;
+}
+
+/* Main content */
+.main {
+    width: 65%;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Button styling */
+.btnDiv {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 8px 16px;  /* Reduced padding for smaller buttons */
+    font-size: 14px;     /* Smaller font size */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#exp_btn, #ref_btn {
+    background-color: #28a745;
+}
+
+#exp_btn:hover, #ref_btn:hover {
+    background-color: #218838;
+}
